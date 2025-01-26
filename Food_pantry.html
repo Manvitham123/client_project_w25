@@ -3,45 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 1</title>
+    <title>Food Pantry Resources</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <a href = "">Skip to Main Content</a>
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
-        <nav>
+    <!-- Skip to Main Content -->
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
+    <!-- Header with Navigation -->
+    <header>
+        <nav role="navigation" aria-label="Main Navigation">
             <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "Study_spaces.html">Study spaces</a></li>
-                <li><a href="Tutoring_site.html">Tutoring site</a></li>
-                <li><a href="Food_pantry.html">Food pantry</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Study_spaces.html">Study Spaces</a></li>
+                <li><a href="Tutoring_site.html">Tutoring Resources</a></li>
+                <li><a href="Food_pantry.html" aria-current="page">Food Pantry</a></li>
             </ul>
         </nav>
-        <h1>Food pantry</h1>
-        <h3>free grocceries for all Michigan students</h3>
-
     </header>
-    <main>
-        <div>
-           <img src="images/MCOMMONS-Thanksgiving2024-16.jpg">
-           <img src="images/MCOMMONS-Thanksgiving2024-15.jpg">
 
+    <!-- Main Content -->
+    <main id="main-content">
+        <h1>Food Pantry Resources</h1>
+        <p>Discover free groceries and support for all University of Michigan students. Find what you need to stay nourished and focused on your studies.</p>
 
-        </div>
+        <section>
+            <h2>Available Food Pantry Locations</h2>
+            <article>
+                <h3>Maize & Blue Cupboard</h3>
+                <p>The Maize & Blue Cupboard provides groceries, personal care items, and more to students in need. Open Monday through Friday, 10 AM to 6 PM.</p>
+                <blockquote>
+                    <p>"The Maize & Blue Cupboard has been a lifesaver for me during stressful weeks. I'm so thankful for this resource!"</p>
+                    <footer>— UMSI Student</footer>
+                </blockquote>
+                <p><strong>Location:</strong> Trotter Multicultural Center</p>
+                <h2>Contact Us</h2>
+                <p><strong>Email:</strong> <a href="mailto:mbcupboard@umich.edu">mbcupboard@umich.edu</a></p>
+                <p><strong>Phone:</strong> (734) 555-1234</p>
+            </article>
+        </section>
 
-<div>[Enter more of your own content here - that includes changing the  content of this page from Academic support to something else!]</div>
-            
-            <!-- Jackie Wolf -->
-    
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <section>
+            <h2>Related Resources</h2>
+            <ul>
+                <li><a href="https://www.foodgatherers.org">Food Gatherers</a> - Local food assistance program</li>
+                <li><a href="https://www.michigan.gov/mdhhs">Michigan Department of Health and Human Services</a> - Apply for SNAP benefits</li>
+            </ul>
+        </section>
+
+        <figure>
+            <img src="images/MCOMMONS-Thanksgiving2024-16.jpg" alt="A student prepares a plate of food in the East Quad Dining Hall.">
+            <figcaption>student picking up food from a table filled with crackers, bread, spreads and dips and fills their plate in the East Quad Dining Hall during Michigan Dining’s 2024 Thanksgiving Dinner Celebration.</figcaption>
+        </figure>
     </main>
-    <footer>
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
-    </footer>
-    
-</body>
 
+    <!-- Footer -->
+    <footer>
+        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a></p>
+        <p>&copy; 2025 University of Michigan</p>
+    </footer>
+</body>
 </html>

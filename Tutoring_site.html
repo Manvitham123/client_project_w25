@@ -3,46 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 1</title>
+    <title>Tutoring Resources</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+    <!-- Skip to Main Content -->
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
+    <!-- Header with Navigation -->
     <header>
-        <a href = "">Skip to Main Content</a>
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
-        <nav>
+        <nav role="navigation" aria-label="Main Navigation">
             <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "Study_spaces.html">Study spaces</a></li>
-                <li><a href="Tutoring_site.html">Tutoring site</a></li>
-                <li><a href="Food_pantry.html">Food pantry</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Study_spaces.html">Study Spaces</a></li>
+                <li><a href="Tutoring_site.html" aria-current="page">Tutoring Resources</a></li>
+                <li><a href="Food_pantry.html">Food Pantry</a></li>
             </ul>
         </nav>
-         
-        <h1>Tutoring Resources</h1>
-        <h3>get the help you need!</h3>
-
     </header>
-    <main>
-        <div>
-           <img src="images/MCOMMONS-FinalsStudyLocations2024-25.jpg">
-           <img src="images/UMSI_MHIClassroom_02202023_11.jpg">
 
-        </div>
+    <!-- Main Content -->
+    <main id="main-content">
+        <h1>Tutoring Resources</h1>
+        <p>Need academic help? Find the support you need with these tutoring services available to all students.</p>
 
-<div>[Enter more of your own content here - that includes changing the  content of this page from Academic support to something else!]</div>
-            
-            <!-- Jackie Wolf -->
-    
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <section>
+            <h2>Featured Tutoring Services</h2>
+            <article>
+                <h3>Science Learning Center</h3>
+                <p>Offers peer tutoring, supplemental instruction, and study groups for science courses.</p>
+                <blockquote>
+                    <p>"The Science Learning Center tutoring sessions helped me improve my grades significantly. The tutors are knowledgeable and patient!"</p>
+                    <footer>— UMSI Student</footer>
+                </blockquote>
+                <p><strong>Contact:</strong> <a href="mailto:slcinfo@umich.edu">slcinfo@umich.edu</a></p>
+            </article>
+            <article>
+                <h3>Math Lab</h3>
+                <p>Provides walk-in help for students enrolled in math courses at the University of Michigan.</p>
+                <p><strong>Hours:</strong> Monday-Friday, 10 AM - 4 PM</p>
+            </article>
+        </section>
+        <figure>
+            <img src="images/MCOMMONS-FinalsStudyLocations2024-25.jpg" alt="A student in a white sweatshirt sits at a table in the Law Library and works on their laptop.">
+            <figcaption>A student in a white sweatshirt sits at a table in the Law Library and works on their laptop. A pair of headphones sits on the desk in front of them. Light filters in from the tall windows behind them.</figcaption>
+        </figure>
+        <section>
+            <h2>How to Access Tutoring</h2>
+            <ol>
+                <li>Visit the tutoring service website or contact them directly.</li>
+                <li>Book a session based on your course or subject.</li>
+                <li>Attend your session and bring specific questions or challenges.</li>
+            </ol>
+        </section>
     </main>
-    <footer>
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
-    </footer>
-    
-</body>
 
+    <!-- Footer -->
+    <footer>
+        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a></p>
+        <p>&copy; 2025 University of Michigan</p>
+    </footer>
+</body>
 </html>

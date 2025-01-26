@@ -3,45 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 1</title>
+    <title>Study Spaces</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+    <!-- Skip to Main Content -->
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
+    <!-- Header with Navigation -->
     <header>
-        <a href = "">Skip to Main Content</a>
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
-        <nav>
+        <nav role="navigation" aria-label="Main Navigation">
             <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "Study_spaces.html">Study spaces</a></li>
-                <li><a href="Tutoring_site.html">Tutoring site</a></li>
-                <li><a href="Food_pantry.html">Food pantry</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Study_spaces.html" aria-current="page">Study Spaces</a></li>
+                <li><a href="Tutoring_site.html">Tutoring Resources</a></li>
+                <li><a href="Food_pantry.html">Food Pantry</a></li>
             </ul>
         </nav>
-        <h1>Study Spaces</h1>
-        <h3>need to lock in? heres where to go</h3>
-
     </header>
-    <main>
-        <div>
-           <img src="images/MCOMMONS-FinalsStudyLocations2024-02.jpg">
-           <img src="images/MCOMMONS-FinalsStudyLocations2024-23.jpg">
 
-        </div>
+    <!-- Main Content -->
+    <main id="main-content">
+        <h1>Study Spaces</h1>
+        <p>Find the best places to focus and succeed in your studies. Explore available study spaces across campus.</p>
 
-<div>[Enter more of your own content here - that includes changing the  content of this page from Academic support to something else!]</div>
-            
-            <!-- Jackie Wolf -->
-    
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <section>
+            <h2>Top Study Locations</h2>
+            <article>
+                <h3>Hatcher Graduate Library</h3>
+                <p>This library offers quiet zones, study rooms, and collaborative spaces for group work. Open 24/7 during finals week.</p>
+                <p><strong>Location:</strong> 913 S University Ave, Ann Arbor, MI</p>
+            </article>
+            <article>
+                <h3>Duderstadt Center</h3>
+                <p>A perfect spot for engineering students, featuring computer labs, collaboration rooms, and tech support.</p>
+                <p><strong>Location:</strong> 2281 Bonisteel Blvd, Ann Arbor, MI</p>
+            </article>
+        </section>
+        <section>
+            <h2>How to Use These Spaces</h2>
+            <p>Most study spaces are available on a first-come, first-served basis, but some locations, such as the Duderstadt Center, allow reservations. Visit <a href="https://studyspaces.umich.edu">studyspaces.umich.edu</a> to learn more.</p>
+        </section>
+
+        <figure>
+            <img src="images/MCOMMONS-FinalsStudyLocations2024-02.jpg" alt="Students study in the reference room of the Hatcher Graduate Library.">
+            <figcaption>Students fill the at long tables in the reference room of the Hatcher Graduate Library the week before final exams.</figcaption>
+        </figure>
+        <section>
+            <h2>Study Tips</h2>
+            <ul>
+                <li>Use noise-canceling headphones for focus.</li>
+                <li>Take breaks every 25-30 minutes to stay productive.</li>
+                <li>Pair study sessions with group discussions to reinforce concepts.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Find Your Study Space</h2>
+            <iframe src="https://maps.studentlife.umich.e " title="Campus Map" width="600" height="400"></iframe>
+        </section>
     </main>
-    <footer>
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
-    </footer>
-    
-</body>
 
+    <!-- Footer -->
+    <footer>
+        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a></p>
+        <p>&copy; 2025 University of Michigan</p>
+    </footer>
+</body>
 </html>
