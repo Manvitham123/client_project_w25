@@ -161,6 +161,8 @@ footer {
 
 a{
     color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 5px;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -207,6 +209,6 @@ main figure:nth-child(6) {
 
 #tips{
     text-align: center;
-    
+
 
 }
