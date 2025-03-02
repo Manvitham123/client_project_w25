@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+   <link rel="stylesheet" href="css/style.css">
     <title>Student Success Portal</title>
 </head>
 <body>
-
-    <header>
-  <a href = "#main-content">Skip to Main Content</a>
+    <a href="#main-content" id="skip-link">Skip to Main Content</a>
+<header>
         <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
         <nav>
             <ul>
-                <li><a href = "index.html">Home</a></li>
+                <li><a href = "index.html" class="active">Home</a></li>
                 <li><a href = "Study_spaces.html">Study spaces</a></li>
                 <li><a href="Tutoring_site.html">Tutoring site</a></li>
                 <li><a href="Food_pantry.html">Food pantry</a></li>
@@ -22,9 +23,10 @@
         <h2>Welcome to the UMSI Student Resource Portal</h2>
         <p>This portal is your gateway to essential resources designed to help you succeed academically, maintain balance, and navigate challenges during your time at UMSI.</p>
 
-    </header>
+</header>
     <main id="main-content">
-        <section>
+        <div class="grid-container">
+        <section id="welcome">
             <h2>Welcome to the UM Grad Success Navigator</h2>
             <p> Your Comprehensive Guide to Resources for Graduate School Success</p>
             <p>This guide is set up to help you be successul inside and outside of the classroom and we have included the following resources throughout our site:</p>
@@ -114,6 +116,7 @@
         </section>
         <!-- Content taken & modified from UMGPT with the prompt, "write me a webpage of intro content to help University of Michigan Master's students navigate different resources for being successful in grad school - this will include academic resources, physical health resources, mental health resources, support for life outside the classroom"
         UMGPT. (2024). UMGPT (August 29th version) [Large language model]. -->
+    </div>
     </main>
     <footer>
         <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
