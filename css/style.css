@@ -1,0 +1,212 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+    --primary-color: #00274C; /* U-M Blue */
+    --secondary-color: #FFCB05; /* U-M Maize */
+    --background-color: #FFFFFF;
+    --text-color: #333;
+    --font-family: 'IBM Plex Sans','Merriweather' ,sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    line-height: 1.6;
+}
+
+
+#skip-link {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 10px;
+    z-index: 100;
+    text-decoration: none;
+}
+#skip-link:focus {
+    top: 20px;
+}
+
+
+header {
+    background: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header img {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px;
+    display: block;
+}
+
+nav a.active {
+    background-color: var(--secondary-color); /* U-M Maize */
+    color: var(--primary-color); /* U-M Blue */
+    border-radius: 5px;
+}
+
+nav a:hover, nav a:focus {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+header h1, h2{
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+h1{
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h2{
+    color: var(--primary-color);
+
+}
+header h1, header h2{
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+main {
+    padding: 1rem;
+}
+
+
+
+.grid-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+#grid-container section{
+    padding: 10px;
+    border: 2px solid grey;
+
+}
+
+#welcome{
+    grid-column: 1 / -1;
+    text-align: center;
+    background-color: lightblue;
+    border : 4px dashed var(--primary-color)
+}
+
+#welcome ul{
+    text-decoration: underline;
+}
+
+#welcome li{
+    text-decoration: underline;
+    
+
+}
+
+#grid-container > section:last-child {
+    grid-column: 1 / -1;
+}
+
+
+article {
+    background: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+figure img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+footer {
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+
+a{
+    color: var(--secondary-color);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+}
+
+#top-study{
+    grid-column: 1 / -1;
+    padding: 20px;
+    border: 2px solid grey;
+}
+
+#top-study article h3{
+    font-weight: bold;
+}
+#top-study article{
+    border: 2px solid #00274C;
+    background-color: #FFCB05;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+
+#how-to{
+    grid-column: 1 / -1;
+
+}
+
+  
+
+main figure:nth-child(5) {
+    grid-column: 1 / -1;
+}
+
+main figure:nth-child(6) {
+    grid-column: 1 / -1;
+}
+
+
+
+#tips{
+    text-align: center;
+    
+
+}
