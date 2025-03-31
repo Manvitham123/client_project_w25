@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Page Not Found | UMSI Portal</title>
+  <link rel="stylesheet" href="css/html5reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    :root {
+  --primary-color: #00274C;       
+  --secondary-color: #FFCB05;   
+  --hover-color: #E0A800;         
+  --text-muted: #6C757D;          
+  --bg-color: #F8F9FA;            
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 6rem;
+  margin: 0;
+  color: var(--primary-color);
+}
+
+p {
+  font-size: 1.25rem;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+img {
+  max-width: 280px;
+  margin-bottom: 2rem;
+}
+
+a.button,
+button.button {
+  display: inline-block;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+a.button:hover,
+button.button:hover {
+  background-color: var(--hover-color);
+}
+
+form {
+  margin-top: 1.5rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+}
+
+  </style>
+</head>
+<body>
+    <svg width="280" height="280" viewBox="0 0 480 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="240" cy="240" r="200" fill="#FFCB05"/>
+        <path d="M180 320h120v20H180z" fill="#00274C"/>
+        <circle cx="220" cy="200" r="20" fill="#00274C"/>
+        <circle cx="260" cy="200" r="20" fill="#00274C"/>
+        <path d="M210 250c10 20 50 20 60 0" stroke="#00274C" stroke-width="6" stroke-linecap="round"/>
+        <text x="120" y="400" font-size="28" fill="#00274C" font-family="sans-serif">Uh-oh! Page went missing.</text>
+      </svg>
+    <h1>404</h1>
+    <p>This page took a sabbatical. Let's guide you back to campus.</p>
+    <a href="index.html" class="button">Return Home</a>
+    <form action="/search" method="GET" style="margin-top: 1.5rem;">
+      <input type="text" name="q" placeholder="Search the site..." style="padding: 0.5rem; width: 250px; border-radius: 5px; border: 1px solid #ccc;">
+      <button type="submit" class="button">Search</button>
+    </form>
+  </body>
+  
+</html>

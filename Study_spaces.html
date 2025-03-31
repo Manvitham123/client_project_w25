@@ -13,8 +13,10 @@
     <a href="#main-content" id="skip-link">Skip to Main Content</a>
 
     <header>
+        <button id="toggle-theme">Toggle Theme</button>
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
         <nav>
-            <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+           
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Study_spaces.html"  class="active">Study Spaces</a></li>
@@ -26,7 +28,7 @@
 
     <main id="main-content">
         <h1>Study Spaces</h1>
-        <p>Find the best places to focus and succeed in your studies. Explore available study spaces across campus.</p>
+        <p class="description">Find the best places to focus and succeed in your studies. Explore available study spaces across campus.</p>
         <div class="grid-container"> 
         <section id="top-study">
             <h2>Top Study Locations</h2>
@@ -58,14 +60,14 @@
                 <img src="images/study3.jpg" alt="Students fill the tables of a building. A small group of students use a staircase in the foreground to climb to the second level balconies lining the garden.">
                 <figcaption>Students study at the Ross Winter Garden under the skylight ceiling.</figcaption>
             </figure>
-            <figure>
+            <figure  class="reveal">
                 <img src="images/MCOMMONS-WinterSemester2025-22.jpg" alt="Students study in the Undergraduate Library as snow falls on a winter morning.">
                 <figcaption>Snow falls outside of the Shapiro Undergraduate Library as students study inside at tables set in small windowed alcoves that protrude from the building.</figcaption>
             </figure>
         
         </div>
         <div id="tips">
-        <section >
+        <section  class="reveal">
             <h2>Study Tips</h2>
             <ul>
                 <li>Use noise-canceling headphones for focus.</li>
@@ -83,7 +85,8 @@
 
     <footer>
         <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a></p>
-        <p>&copy; 2025 University of Michigan</p>
+        <p>&copy; <span id="year"></span> UMSI Academic Advising</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

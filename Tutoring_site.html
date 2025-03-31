@@ -14,8 +14,10 @@
 
 
     <header>
+        <button id="toggle-theme">Toggle Theme</button>
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
         <nav>
-            <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+            
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Study_spaces.html">Study Spaces</a></li>
@@ -28,8 +30,8 @@
 
     <main id="main-content">
         <h1>Tutoring Resources</h1>
-        <p>Need academic help? Find the support you need with these tutoring services available to all students.</p>
-
+        <p class="description">Need academic help? Find the support you need with these tutoring services available to all students.</p>
+        <div class="side-by-side">
         <section>
             <h2>Featured Tutoring Services</h2>
             <article>
@@ -51,7 +53,8 @@
             <img src="images/MCOMMONS-FinalsStudyLocations2024-25.jpg" alt="A student in a white sweatshirt sits at a table in the Law Library and works on their laptop.">
             <figcaption>A student is hard at work in the  Law Library during finals week</figcaption>
         </figure>
-        <section>
+    </div>
+        <section id="how-to-tutoring">
             <h2>How to Access Tutoring</h2>
             <ol>
                 <li>Visit the tutoring service website or contact them directly.</li>
@@ -63,7 +66,8 @@
 
     <footer>
         <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a></p>
-        <p>&copy; 2025 University of Michigan</p>
+        <p>&copy; <span id="year"></span> UMSI Academic Advising</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

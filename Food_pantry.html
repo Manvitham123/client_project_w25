@@ -14,6 +14,7 @@
 
     <!-- Header with Navigation -->
     <header>
+        <button id="toggle-theme">Toggle Theme</button>
         <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
         <nav>
             <ul>
@@ -27,9 +28,10 @@
 
     <!-- Main Content -->
     <main id="main-content">
+        
         <h1>Food Pantry Resources</h1>
-        <p>Discover free groceries and support for all University of Michigan students. Find what you need to stay nourished and focused on your studies.</p>
-
+        <p class="description">Discover free groceries and support for all University of Michigan students. Find what you need to stay nourished and focused on your studies.</p>
+        <div class="side-by-side">
         <section>
             <h2>Available Food Pantry Locations</h2>
             <article>
@@ -46,24 +48,25 @@
             </article>
         </section>
 
-        <section>
+        <figure >
+            <img src="images/MCOMMONS-Thanksgiving2024-16.jpg" alt="A student prepares a plate of food in the East Quad Dining Hall.">
+            <figcaption>student picking up food from a table filled with crackers, bread, spreads and dips and fills their plate in the East Quad Dining Hall during Michigan Dining’s 2024 Thanksgiving Dinner Celebration.</figcaption>
+        </figure>
+        </div>
+        <section id="Related">
             <h2>Related Resources</h2>
             <ul>
                 <li><a href="https://www.foodgatherers.org">Food Gatherers</a> - Local food assistance program</li>
                 <li><a href="https://www.michigan.gov/mdhhs">Michigan Department of Health and Human Services</a> - Apply for SNAP benefits</li>
             </ul>
         </section>
-
-        <figure>
-            <img src="images/MCOMMONS-Thanksgiving2024-16.jpg" alt="A student prepares a plate of food in the East Quad Dining Hall.">
-            <figcaption>student picking up food from a table filled with crackers, bread, spreads and dips and fills their plate in the East Quad Dining Hall during Michigan Dining’s 2024 Thanksgiving Dinner Celebration.</figcaption>
-        </figure>
     </main>
 
     <!-- Footer -->
     <footer>
         <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a></p>
-        <p>&copy; 2025 University of Michigan</p>
+        <p>&copy; <span id="year"></span> UMSI Academic Advising</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
